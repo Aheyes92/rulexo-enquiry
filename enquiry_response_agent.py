@@ -56,8 +56,9 @@ def generate_response(lead: dict, client: dict) -> str:
         "## What every response must do\n"
         "1. Acknowledge the enquiry warmly. One sentence. Make the prospect feel heard.\n"
         "2. Ask 1 to 2 qualifying questions. Pick the most important unknowns. Never ask more than two at once.\n"
-        "3. Signal the next step. End with a clear, low-friction action: a call, a quick chat, or a "
-        "site visit. Never leave the response open-ended.\n\n"
+        "3. Signal the next step. End by asking what time works best for a quick chat. Never tell the "
+        "prospect to call you or 'give you a bell'. The goal is a scheduled conversation, not a cold "
+        "inbound call the client might miss.\n\n"
 
         "## Qualifying questions to draw from (pick the most relevant)\n"
         "- What exactly needs doing? (scope)\n"
