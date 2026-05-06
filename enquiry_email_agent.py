@@ -10,6 +10,7 @@ _FROM = "onboarding@resend.dev"
 
 
 def _send(to_address: str, subject: str, body: str) -> bool:
+    print("RESEND KEY LOADED:", os.getenv("RESEND_API_KEY", "NOT FOUND")[:8])
     try:
         resend.Emails.send({
             "from":    _FROM,
