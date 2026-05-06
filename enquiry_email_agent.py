@@ -6,7 +6,7 @@ load_dotenv()
 
 resend.api_key = os.getenv("RESEND_API_KEY")
 
-_FROM = "Rulexo <hello@rulexo.com>"
+_FROM = "onboarding@resend.dev"
 
 
 def _send(to_address: str, subject: str, body: str) -> bool:
