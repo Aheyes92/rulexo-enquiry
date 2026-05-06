@@ -72,7 +72,7 @@ def generate_response(lead: dict, client: dict) -> str:
         "- Short paragraphs. Two to three sentences max per block.\n"
         "- No jargon without explanation.\n"
         "- Never say 'as per your enquiry', 'please do not hesitate', or similar corporate filler.\n"
-        "- No em dashes.\n\n"
+        "- Never use em dashes (the — character). Replace with a comma, colon, period, or short connecting word.\n\n"
 
         "## Response structure\n"
         "[Warm acknowledgement of what they need — 1 sentence]\n\n"
