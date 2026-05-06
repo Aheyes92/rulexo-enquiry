@@ -1,8 +1,10 @@
 import os
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from enquiry_orchestrator import run_enquiry_pipeline
 
 app = Flask(__name__)
+CORS(app, origins=["https://rulexo.com"])
 
 
 @app.route("/health", methods=["GET"])
