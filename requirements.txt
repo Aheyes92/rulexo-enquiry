@@ -2,4 +2,5 @@ anthropic
 flask
 gunicorn
 python-dotenv
+resend
 twilio
